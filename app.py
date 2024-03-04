@@ -1,8 +1,8 @@
 import streamlit as st
-import pandas as pd
-# import yfinance as yf
-import datetime
-import plotly.express as px
+# import pandas as pd
+# # import yfinance as yf
+# import datetime
+# import plotly.express as px
 
 # Load data containing symbols and company names
 data = pd.read_csv("EQUITY_L.csv")
