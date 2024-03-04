@@ -5,10 +5,10 @@ import streamlit as st
 # import plotly.express as px
 
 # Load data containing symbols and company names
-data = pd.read_csv("EQUITY_L.csv")
+#data = pd.read_csv("EQUITY_L.csv")
 
 # Extract stock symbols from the data
-stock_symbols = data['SYMBOL'].tolist()
+#stock_symbols = data['SYMBOL'].tolist()
 
 # Informative message about data availability
 st.info("Dive deeper with this data! It provides minute-by-minute details for the past 30 days, giving you high-resolution insights.")
